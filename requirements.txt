@@ -3,5 +3,6 @@ TgCrypto
 beautifulsoup4
 requests
 requests_html
+lxml[html_clean]
 redis
 
