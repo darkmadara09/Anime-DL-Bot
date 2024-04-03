@@ -9,10 +9,11 @@ def start_message(client, message):
     ]
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
     pic_url = "https://telegra.ph/file/4d0bc819e4b30f7207e04.jpg"
-    message.reply_photo(pic_url, caption=f"""<b>Hi {message.chat.first_name}</b>,
+    message.reply_photo(pic_url, caption=f"""**Hi {message.chat.first_name}**,
 
-Welcome to Anime DL Bot
+Welcome to Anime DL Bot, Here you can Download all Anime for FREE 😁 ,For TG Anime Join @Anime_Collectors 
+!!!
 
-<em>Please read all the instructions about the bot before surfing on...</em>
+Please read all the instructions about the bot before surfing on...
 
-See /whats_new to know about latest updates...""", reply_markup=reply_markup, parse_mode="html")
+See /whats_new to know about latest updates...""", reply_markup=reply_markup)
